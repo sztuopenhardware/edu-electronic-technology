@@ -1,0 +1,26 @@
+{
+  "name": "analog-electronics-ngspice-lab",
+  "private": true,
+  "version": "1.0.0",
+  "description": "《模拟电子技术A》交互式 SPICE 教学仿真平台（基于 Ngspice WebAssembly）",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "eecircuit-engine": "^1.6.5",
+    "katex": "^0.16.11",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.3"
+  }
+}
